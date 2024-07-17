@@ -93,7 +93,13 @@ header {
     width: 520px;
     height: 282px;
 }
-
+.banner{
+    display: flex;
+}
+.banner-man{
+    display: flex;
+    justify-content: flex-end;
+}
 .banner-content-container h1 {
     color: rgb(255, 255, 255);
     font-family: Inter;
@@ -104,5 +110,15 @@ header {
 
 .banner-content-container p {
     font-size: 16px;
+
+}
+.banner-right-site img{
+    width: 100%;
+    height: 480px;
+}
+
+.banner-man{
+   
+    transform: translateX(30%);
 
 }

@@ -4,15 +4,28 @@
 
 
 @media (max-width: 576px) {
-    .sec-container {
-        max-width: 90%;
-        margin: 0 auto;
-        box-sizing: border-box;
-        background-color: rgb(79, 77, 73);
+    .hide {
+        display: none;
     }
 
+    .sec-container {
+        max-width: 576px;
+        margin: 0 auto;
+        box-sizing: border-box;
+
+    }
+
+    .title-des-container {
+        margin: 0 auto 50px auto;
+        width: 375px;
+        text-align: center;
+
+    }
+
+    .banner-content-container {}
+
     .brand-name h1 {
-        color: aqua;
+        margin-left: 20px;
     }
 
     header nav {
@@ -27,5 +40,104 @@
         color: white;
         margin-top: 8px;
         font-size: 30px;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-right-site img {
+        width: 300px;
+        height: 486px;
+        transform: translateX(130px);
+        margin-top: 190px;
+    }
+
+    .banner-content-container {
+        width: 380px;
+        height: 282px;
+        padding: 0px 20px;
+    }
+
+    .banner-content-container h1 {
+        font-size: 32px;
+        margin-top: 41px;
+    }
+
+    .banner-right-site img {
+        width: 300;
+        height: 473px;
+        transform: translateX(86px);
+        margin-top: 0px;
+    }
+
+    .banner-box-2 {
+        margin-top: -239px;
+        margin-left: 187px;
+    }
+
+    .banner-content-container p {
+        font-size: 16px;
+        width: 340px;
+        height: 80px;
+    }
+
+    /* habit section*/
+    .habit .sec-container {
+        margin-top: 217px;
+    }
+
+    .habit-item-container {
+        flex-direction: column;
+    }
+
+    /* extra miles */
+    .extra-miles {
+        display: flex;
+        flex-direction: column;
+        height: 670px;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+
+    .extra-miles-content {
+        padding: 0px 20px;
+
+    }
+
+
+    .extra-miles img {
+        margin: 20px 60px;
+    }
+
+    /* calculator section */
+
+    .cal-header-content {
+        width: 384px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .team-member-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px;
+        gap: 10px;
+    }
+
+    /* team section */
+    .member-card {
+        margin-bottom: 59px;
+    }
+
+    .member-card {
+        width: 100%;
+    }
+
+    /* footer */
+    .footer {
+        flex-direction: column;
     }
 }

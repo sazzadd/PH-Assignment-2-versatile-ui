@@ -15,7 +15,7 @@
         <header class="header">
             <div class="sec-container navbar">
                 <div class="navbar-wrpper">
-                    <div class="brand-name hide">
+                    <div class="brand-name">
                         <h1>Fitness</h1>
                     </div>
                     <nav class="menu">
@@ -33,13 +33,13 @@
             </div>
             <section class="banner sec-container">
                 <div class="banner-content-container">
-                    <h1>Get body in shape & stay healthy</h1>
+                    <h1>Get body in <span class="shape">shape</span> & stay healthy</h1>
                     <p>A huge selection of health and fitness content, healthy
                         recipes and transformation stories to help you get fit
                         and
                         stay fit!
                     </p></br>
-                    <div cl>
+                    <div class="banner-btn">
                         <a class="btn" href>Join Club Now!</a>
                         <a class="btn2" href>Download App</a>
                     </div>
@@ -127,12 +127,67 @@
                 </div>
             </section>
         </main>
+        <!-- calculator secton -->
         <section class="calculetor">
-            <div class="sec-container">
-                <input type="number">
-                <input type="number">
-                <button>calculate</button>            </div>
+            <div class="sec-container cal">
+                <div class="cal-left">
+                        <h3>BMI Calculator Chart</h3>
+                        <table>
+                            <tr>
+                            <th>BMI </th>
+                            <th>Weight Status</th>
+                            </tr>
+                            <tr>
+                            <td>Below 18.5</td>
+                            <td>Underweight</td>
+                            </tr>
+                            <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Healthy</td>
+                            </tr>
+                            <tr>
+                        
+                            <td>25.0 - 29.9</td>
+                            <td>Overweight</td>
+                            </tr>
+                            <tr>
+                            <td>30.0 - and Above</td>
+                            <td>Obese</td>
+                            </tr>
+                            
+                        
+                        </table>
+                </div>
+                <div class="cal-right">
+                    <div class="cal-right-content">
+                            <h3>Calculate your BMI</h3>
+                        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                    </div>
+                    <div class="input-row-1">
+                        <input type="text" class="input-field" placeholder="Height/cm">
+                        <input type="text" class="input-field" placeholder="Weight/kg">
+                    </div>
+                    <div class="input-row-2">
+                        <input type="text" class="input-field" placeholder="Weight/kg">
+                        <select class="input-field" required>
+                            <option value="" disabled selected hidden>sex</option>
+                            <option value="0">MALE</option>
+                            <option value="1">FEMALE</option>
+                        </select>
+                    </div>
+                    <div class="input-row-3">
+                        
+                        <select class="input-field-2 " required>
+                            <option value="" disabled selected hidden>Select an activity factor</option>
+                            <option value="0">op1</option>
+                            <option value="1">op2</option>
+                        </select>
+                    </div>
+                    <a href="#" class="btn">Calculate</a>
+                </div>
+            </div>
         </section>
+        <!-- team section -->
         <div class="team">
             <div class="sec-container">
                 <div class="team-content">
@@ -146,48 +201,75 @@
                     <div class="member-card">
                         <img class="m" src="./images/trainer1.png" alt>
                         <div class="card-content">
-                            <h6>jerome bell</h6>
+                            <h3>jerome bell</h3>
                             <p>Tainer</p>
                         </div>
                     </div>
                     <div class="member-card">
-                        <img src="./images/trainer1.png" alt>
+                        <img src="./images/trainer2.png" alt>
                         <div class="card-content">
-                            <h6>jerome bell</h6>
+                            <h3>Cameron Williamson</h3>
                             <p>Tainer</p>
                         </div>
                     </div>
                     <div class="member-card">
-                        <img src="./images/trainer1.png" alt>
+                        <img src="./images/trainer3.png" alt>
                         <div class="card-content">
-                            <h6>jerome bell</h6>
+                            <h3>Darrell Steward</h3>
                             <p>Tainer</p>
                         </div>
                     </div>
                     <div class="member-card">
-                        <img src="./images/trainer1.png" alt>
+                        <img src="./images/trainer4.png" alt>
                         <div class="card-content">
-                            <h6>jerome bell</h6>
+                            <h3>Dianne Russell</h3>
                             <p>Tainer</p>
                         </div>
                     </div>
                     <div class="member-card">
-                        <img src="./images/trainer1.png" alt>
+                        <img src="./images/trainer5.png" alt>
                         <div class="card-content">
-                            <h6>jerome bell</h6>
+                            <h3>jems beli</h3>
                             <p>Tainer</p>
                         </div>
                     </div>
                     <div class="member-card">
-                        <img src="./images/trainer1.png" alt>
+                        <img src="./images/trainer6.png" alt>
                         <div class="card-content">
-                            <h6>jerome bell</h6>
+                            <h3>Cody Fisher</h3>
                             <p>Tainer</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- uniq section-->
+         <section class="uniq-section">
+            <div class="sec-container uniq">
+                <div class="uinq-left">
+                    <h1>Lets connect</h1>
+                    <ul>
+                        <li><a href><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href><i class="fa-brands fa-instagram"></i></a></li>
+                      </ul>
+                      <hr>
+                </div>
+                <div class="uniq-right">
+                    <h1>Let’s Message me</h1>
+                  <form action>
+                    <input type="text" name id placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea name id cols="30" rows="10"
+                      placeholder="Massege"></textarea>
+                    <input type="submit">
+                  </form>
+                </div>
+            </div>
+            
+         </section>
+        
+        <!-- footer section -->
         <footer>
             <div class="sec-container footer">
                 <div class="footer-col-1">

@@ -64,6 +64,16 @@
         margin-top: 41px;
     }
 
+    .banner-right-site {
+        margin-top: 28px;
+        justify-content: center;
+        width: 50%;
+        /* margin: 0 auto; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .banner-right-site img {
         width: 300;
         height: 473px;
@@ -98,6 +108,7 @@
         height: 670px;
         align-items: center;
         padding: 20px;
+        margin: 30px auto;
 
     }
 
@@ -112,6 +123,10 @@
         margin: 20px 60px;
     }
 
+    .team-content {
+        margin-top: 60px;
+    }
+
     /* calculator section */
 
     .cal-header-content {
@@ -124,20 +139,68 @@
         display: grid;
         grid-template-columns: 1fr;
         padding: 30px;
-        gap: 10px;
+        gap: 20px;
     }
 
     /* team section */
-    .member-card {
+    /* .member-card {
         margin-bottom: 59px;
-    }
+    } */
 
     .member-card {
-        width: 100%;
+        width: 300px;
     }
 
     /* footer */
     .footer {
         flex-direction: column;
+    }
+
+    /* cahrt */
+    .cal {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .cal-right {
+        width: 0px;
+    }
+
+    .cal-right-content {
+        width: 334px;
+        height: 150px;
+        margin: 0;
+    }
+
+    .calculetor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /*  input field*/
+    .input-row-1,
+    .input-row-2,
+    .input-row-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .cal-right .btn {
+        padding: 6px 28px;
+    }
+
+    .input-field-2 {
+        width: 230px;
+    }
+
+    /* uniq */
+    .uniq {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
     }
 }
